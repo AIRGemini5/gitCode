@@ -33,7 +33,7 @@
 import { getArticle } from '@/api/article'
 import MarkdownIt from 'markdown-it'
 import ArticleMeta from './components/article-meta'
-import ArticleComments from './components/article-comments'
+import ArticleComments from './components/article-comments' 
 export default {
   name: "ArticleIndex",
   async asyncData ({ params }) {
