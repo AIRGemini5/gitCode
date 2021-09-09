@@ -17,11 +17,11 @@ jobs:
     - name: Build
       uses: actions/setup-node@master
     - run: npm install
-    working-directory: realworld-nuxtjs
+      working-directory: realworld-nuxtjs
     - run: npm run build
-    working-directory: realworld-nuxtjs
+      working-directory: realworld-nuxtjs
     - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json pm2.config.json
-    working-directory: realworld-nuxtjs
+      working-directory: realworld-nuxtjs
 
     # 发布 Release
     - name: Create Release
@@ -57,7 +57,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd /root/realworld-nuxtjs
-          wget https://github.com/AIRGemini5/gitCode/realworld-nuxtjs/releases/latest/download/release.tgz -O release.tgz
+          wget https://github.com/AIRGemini5/gitCode/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           npm install --production
           pm2 reload pm2.config.json
