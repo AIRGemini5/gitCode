@@ -7,38 +7,46 @@
             <fieldset>
               <fieldset class="form-group">
                 <input
+                  v-model="article.title"
                   type="text"
                   class="form-control form-control-lg"
-                  placeholder="Article Title"
+                  placeholder="文章标题"
                 />
               </fieldset>
+
               <fieldset class="form-group">
                 <input
+                  v-model="article.description"
                   type="text"
                   class="form-control"
-                  placeholder="What's this article about?"
+                  placeholder="这篇文章是关于什么的？"
                 />
               </fieldset>
+
               <fieldset class="form-group">
                 <textarea
+                  v-model="article.body"
                   class="form-control"
                   rows="8"
-                  placeholder="Write your article (in markdown)"
+                  placeholder="文章内容"
                 ></textarea>
               </fieldset>
+
               <fieldset class="form-group">
                 <input
+                  v-model="article.tagList"
                   type="text"
                   class="form-control"
-                  placeholder="Enter tags"
+                  placeholder="标签"
                 />
                 <div class="tag-list"></div>
               </fieldset>
               <button
                 class="btn btn-lg pull-xs-right btn-primary"
                 type="button"
+                @click="createArticle"
               >
-                Publish Article
+                发布文章
               </button>
             </fieldset>
           </form>
@@ -49,21 +57,43 @@
 </template>
 
 <script>
+import { addCreateArticle } from "@/api/article";
 export default {
   // 在路由匹配组件渲染之前会先执行中间件处理
-  middleware: 'authenticated',
-  name: 'EditorIndex',
+  middleware: "authenticated",
+  name: "EditorIndex",
 
   props: {},
   components: {},
   data() {
-    return {};
+    return {
+      article: {
+        title: "hha",
+        description: "lalla",
+        body: "kakakka",
+        tagList: ["reactjs", "angularjs", "dragons"],
+      },
+    };
   },
   computed: {},
   watch: {},
   created() {},
   mounted() {},
-  methods: {},
+  methods: {
+    async createArticle() {
+      try {
+        console.log(this.article);
+         let obj = JSON.stringify(this.article)
+         let p = JSON.parse(obj)
+         console.log(obj,p)
+        const { data } = await addCreateArticle({ article: p });
+        console.log("data", data);
+        //  this.$router.push("/");
+      } catch(err) {
+        console.log(err)
+      }
+    },
+  },
 };
 </script>
 

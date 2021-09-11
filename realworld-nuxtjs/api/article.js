@@ -1,5 +1,15 @@
 import { request } from '@/plugins/request'
 
+// 发布文章
+export const addCreateArticle = params => {
+  console.log('params',params)
+  return request({
+    method: 'POST',
+    url: '/api/articles',
+    params
+  })
+}
+
 // 获取公共文章列表
 export const getArticles = params => {
   return request({
@@ -51,3 +61,4 @@ export const getComments = slug => {
     url: `/api/articles/${slug}/comments`
   })
 }
+

@@ -1,51 +1,51 @@
 [
   {
     "path": "/",
-    "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/layout",
+    "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/layout",
     "children": [
       {
         "path": "",
         "name": "home",
-        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/home",
-        "_name": "_2c5d2eae"
+        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/home",
+        "_name": "_3e6c5308"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/login",
-        "_name": "_5f80ef7a"
+        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/login",
+        "_name": "_38a9416c"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/login",
-        "_name": "_5f80ef7a"
+        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/login",
+        "_name": "_38a9416c"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/profile",
-        "_name": "_5c29c97a"
+        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/profile",
+        "_name": "_e6f53228"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/settings",
-        "_name": "_8b61131c"
+        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/settings",
+        "_name": "_d530f180"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/editor",
-        "_name": "_f7ddb908"
+        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/editor",
+        "_name": "_6019e06c"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例/realworld-nuxtjs/pages/article",
-        "_name": "_42f40cc7"
+        "component": "/Users/huangxiaofei/Desktop/拉勾每日资料/Part 3 · Vue.js 框架源码与进阶/Vuex 数据流管理及Vue.js 服务端渲染（SSR）/本阶段的代码案例 自建/gitCode/realworld-nuxtjs/pages/article",
+        "_name": "_734faa39"
       }
     ],
-    "_name": "_e040058e"
+    "_name": "_487c2cf2"
   }
 ]

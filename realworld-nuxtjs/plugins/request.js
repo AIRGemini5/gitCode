@@ -18,7 +18,6 @@ export default ({ store }) => {
   // 任何请求都要经过请求拦截器
   // 我们可以在请求拦截器中做一些公共的业务处理,例如统一设置 token
   request.interceptors.request.use(function (config) {
-    console.log('111')
     // Do something before request is sent
     // 请求就会经过这里
     const { user } = store.state
